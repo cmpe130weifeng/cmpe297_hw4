@@ -5,3 +5,6 @@ Model-Agnostic Meta-Learning (MAML) is approch to make the AI learn/update its h
 The figure shows how MAML works: before move to next step (from gradient descent), it will take a batch of tasks, and compute all the tasks' gradient descent(in a inner loop). After all tasks done, we then would take a optimal step (based on all small steps). In this exercise, I praticed using MAML on Omniglot dataset.</br>
 </br>
 Colab Link: https://colab.research.google.com/drive/1JPZSp6_nOUTupmJHWYyHWTm_uGtWoVl0
+</br>
+</br>
+Ref: https://keras.io/examples/vision/reptile/ 
